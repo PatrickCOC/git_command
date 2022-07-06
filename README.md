@@ -12,7 +12,7 @@ Checkout
 
     git checkout [branch name]   
 
-Localbracnh 
+Localbranch 
 
     git checkout -b [new branch name]
 ## gitHub push requir username and password
