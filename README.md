@@ -14,6 +14,14 @@ Checkout
 
 Localbranch 
 
+Undo Commit
+    git reset --soft HEAD~
+    
+    TIP: Add a number to the end to undo multiple commits. For example, to undo the last 2 commits (assuming both have not been pushed) 
+    run :
+    git reset --       soft HEAD~2
+    NOTE: git reset --soft HEAD~ is the same as git reset --soft HEAD^ which you may see in Git documentation.
+
     git checkout -b [new branch name]
 ## gitHub push requir username and password
     git remote set-url origin git@github.com:username/repo.git
