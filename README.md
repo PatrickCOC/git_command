@@ -33,12 +33,15 @@ Localbranch
 
 Tag
 
-   git tag
-   git tag -l "v1.8.5*"
+    git tag
+    git tag -l "v1.8.5*"
    
-   git tag -a v1.4 -m "my version 1.4"
+    git tag -a v1.4 -m "my version 1.4"
    
-   git show v1.4
+    git show v1.4
    
-   git push origin v1.5
-   git push origin --tags
+    git push origin v1.5
+    git push origin --tags
+   
+Remove
+    rm -fr .git
